@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="https://logging.apache.org/xml/ns">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://logging.apache.org/xml/ns https://logging.apache.org/xml/ns/log4j-config-2.xsd">
+	<Properties>
+		<Property name="basePath">./FolderLogs</Property>
+	</Properties>
+	<Appenders>
+		<Console name="CONSOLE">
+			<PatternLayout pattern="%p - %m%n" />
+		</Console>
+		<RollingFile name="File" fileName="${basePath}/prints.log"
+			filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="10000" />
+		</RollingFile>
+		<File name="MAIN" fileName="logs/main.log">
+			<JsonTemplateLayout />
+		</File>
+		<File name="DEBUG_LOG" fileName="logs/debug.log">
+			<PatternLayout pattern="%d{DATE}- %d [%t] %p %c - %m%n" />
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="all">
+			<AppenderRef ref="File" level="all" />
+			<AppenderRef ref="File" />
+		</Root>
+		<Logger name="org.example" level="DEBUG">
+			<AppenderRef ref="DEBUG_LOG" />
+		</Logger>
+	</Loggers>
+</Configuration>

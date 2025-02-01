@@ -1,0 +1,30 @@
+21:24:21.184 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on login Button
+21:24:23.232 [TestNG-tests-4] DEBUG testcases.LoginTest - User got logged in
+21:24:23.232 [TestNG-tests-4] INFO  testcases.LoginTest - LoginTest got passed
+21:24:29.299 [TestNG-tests-4] DEBUG testcases.LoginTest - Browser got Launched
+21:24:30.224 [TestNG-tests-4] DEBUG testcases.LoginTest - Navigated to application URL
+21:24:32.335 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on Account dropdown
+21:24:34.799 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on Login Link
+21:24:36.942 [TestNG-tests-4] DEBUG testcases.LoginTest - Email address got entered
+21:24:37.026 [TestNG-tests-4] DEBUG testcases.LoginTest - Password got entered
+21:24:38.349 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on login Button
+21:24:40.372 [TestNG-tests-4] ERROR testcases.LoginTest - User couldn't login
+21:24:40.372 [TestNG-tests-4] INFO  testcases.LoginTest - LoginTest got passed
+21:30:22.039 [TestNG-tests-4] DEBUG testcases.LoginTest - Browser got Launched
+21:30:22.389 [TestNG-tests-4] DEBUG testcases.LoginTest - Navigated to application URL
+21:30:24.966 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on Account dropdown
+21:30:27.252 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on Login Link
+21:30:29.407 [TestNG-tests-4] DEBUG testcases.LoginTest - Email address got entered
+21:30:29.501 [TestNG-tests-4] DEBUG testcases.LoginTest - Password got entered
+21:30:30.455 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on login Button
+21:30:32.517 [TestNG-tests-4] DEBUG testcases.LoginTest - User got logged in
+21:30:32.518 [TestNG-tests-4] INFO  testcases.LoginTest - LoginTest got passed
+21:30:40.044 [TestNG-tests-4] DEBUG testcases.LoginTest - Browser got Launched
+21:31:10.198 [TestNG-tests-4] DEBUG testcases.LoginTest - Navigated to application URL
+21:31:12.319 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on Account dropdown
+21:31:16.214 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on Login Link
+21:31:18.337 [TestNG-tests-4] DEBUG testcases.LoginTest - Email address got entered
+21:31:18.435 [TestNG-tests-4] DEBUG testcases.LoginTest - Password got entered
+21:31:19.362 [TestNG-tests-4] DEBUG testcases.LoginTest - Clicked on login Button
+21:31:21.399 [TestNG-tests-4] ERROR testcases.LoginTest - User couldn't login
+21:31:21.399 [TestNG-tests-4] INFO  testcases.LoginTest - LoginTest got passed
