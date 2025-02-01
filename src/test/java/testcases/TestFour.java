@@ -15,6 +15,8 @@ public class TestFour extends Base {
 	@Test
 	public void testfour() throws IOException, InterruptedException {
 		
+		System.out.println("This code has been updated by second");
+		
 		System.out.println("This is test four");
 		
 		driver = initializeDriver();
